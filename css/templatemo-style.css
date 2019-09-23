@@ -85,10 +85,12 @@ button:focus { outline: none; }
 	margin-bottom: 30px;
 }
 
-.tm-site-name { margin-bottom: 35px; }
+.tm-site-name {
+	margin-bottom: 35px;
+}
 
 .cd-hero-slider .tm-site-name { 
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: 400;
 }
 
