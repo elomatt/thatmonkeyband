@@ -210,11 +210,11 @@ button:focus { outline: none; }
 .tm-img-gallery {
 	max-width: 860px;
 	margin: 10px auto 0;
-	width: 100%;		
+	width: 480px;		
 }
 
 .tm-img {
-  	width: 280px;
+  	width: 480px;
   	height: auto;
   	border: 10px solid #ffffff;
   	margin: 0 auto 10px;
