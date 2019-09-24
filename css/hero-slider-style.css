@@ -296,6 +296,10 @@ Single slide style
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  -o-filter: blur(30px);
+  filter: blur(30px);
+  object-fit: cover;
+  z-index: -1;
 }
 .cd-hero-slider h2, .cd-hero-slider p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
