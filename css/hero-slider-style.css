@@ -80,7 +80,7 @@ Main Components
   transform: translateY(-100%);
 }
 .cd-primary-nav ul.is-visible {
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
   -ms-transform: translateY(50px);
@@ -614,7 +614,7 @@ Slider navigation
   background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;*/
 }
 .no-touch .cd-slider-nav a:hover {
-  background-color: rgba(0, 1, 1, 0.5);
+  background-color: rgba(0, 1, 1, 0.8);
 }
 .cd-slider-nav li:first-of-type a::before {
   background-position: 0 0;

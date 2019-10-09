@@ -378,13 +378,13 @@ textarea { height: 168px; }
 
 	.cd-slider-nav a,
 	.navbar-nav .nav-link {
-		background-color: rgba(255,255,255,0.4);
+		background-color: rgba(255,255,255,0.7);
 	}
 
 	.cd-slider-nav .nav-item.selected .nav-link,
 	.cd-slider-nav .nav-link:hover,
 	.cd-slider-nav .nav-link:focus {
-		background-color: rgba(255,255,255,0.7);
+		background-color: rgba(255,255,255,0.9);
 	}
 
 	.cd-slider-nav li {	
