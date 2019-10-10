@@ -87,6 +87,8 @@ button:focus { outline: none; }
 
 .tm-site-name {
 	margin-bottom: 5px;
+	font-size: 4.5em;
+	color: white;
 }
 
 .cd-hero-slider .tm-site-name { 
@@ -366,7 +368,7 @@ textarea { height: 168px; }
 }
 
 @media only screen and (min-width: 465px) {
-	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: -50px; }	
+	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 0px; }	
 }
 
 @media only screen and (min-width: 768px) {
