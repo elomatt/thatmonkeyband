@@ -230,7 +230,6 @@ Single slide style
 }
 .cd-hero-slider li:nth-of-type(6) {
   background-color: #2c343b;
-  background-size: contain;
   background-image: url("../img/tm-img-06-tn.jpg");
 }
 .cd-hero-slider .cd-full-width,
@@ -646,6 +645,13 @@ Slider navigation
 .cd-slider-nav li.selected:nth-of-type(5) a::before {
   background-position: -96px -24px;
 }
+.cd-slider-nav li:nth-of-type(6) a::before {
+  background-position: -120px 0;
+}
+.cd-slider-nav li.selected:nth-of-type(6) a::before {
+  background-position: -120px -24px;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-slider-nav {
     height: 80px;
