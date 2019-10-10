@@ -214,7 +214,6 @@ button:focus { outline: none; }
 
 /* Gallery */
 .tm-img-gallery {
-	max-width: 800px;
 	margin: 25px auto 0;	
 }
 
