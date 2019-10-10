@@ -83,11 +83,10 @@ button:focus { outline: none; }
 .tm-icon { 
 	color: white;
 	margin-bottom: 30px;
-	margin-top: 
 }
 
 .tm-site-name {
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 
 .cd-hero-slider .tm-site-name { 
@@ -352,7 +351,7 @@ textarea { height: 168px; }
 }
 
 .cd-hero-slider.small-screen { height: 100%; }
-.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 10px; }
+.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 5px; }
 
 /* Media Queries */
 @media only screen and (min-width: 720px) {
@@ -372,7 +371,7 @@ textarea { height: 168px; }
 
 @media only screen and (min-width: 768px) {
 
-	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: -50px; }
+	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 25px; }
 
 	.navbar-nav .nav-item {	float: left; }
 
