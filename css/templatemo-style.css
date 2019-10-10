@@ -105,6 +105,7 @@ button:focus { outline: none; }
 .tm-bg-white-translucent {	
 	background-color: rgba(255,255,255,0.75);
 	margin-bottom: 25px;
+	margin-top: 25px;
 }
 
 .tm-bg-white-translucent p { color: black; }
@@ -214,8 +215,7 @@ button:focus { outline: none; }
 /* Gallery */
 .tm-img-gallery {
 	max-width: 800px;
-	margin: 10px auto 0;
-	width: 800px;		
+	margin: 25px auto 0;	
 }
 
 .tm-img {
