@@ -364,6 +364,35 @@ textarea { height: 168px; }
 .cd-hero-slider.small-screen { height: 100%; }
 .cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 5px; }
 
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+    
+    /* customizable */
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: #333;
+    border-radius: 10px;  
+	box-shadow: 2px 2px 1px silver;
+}
+
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+    
+    /* customizable */
+    background: #FFFFFF;
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 250%;	
+}
+
+[tooltip]:not([tooltip-persistent]):before {
+    pointer-events: none;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 720px) {
 	
