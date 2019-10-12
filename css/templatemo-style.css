@@ -100,8 +100,6 @@ button:focus { outline: none; }
 
 .cd-hero-slider li { list-style: none; }
 
-.cd-hero-slider li:last-child { background-size: auto; }
-
 .tm-bg-white-translucent {	
 	background-color: rgba(255,255,255,0.75);
 	margin-bottom: 25px;
@@ -313,7 +311,15 @@ textarea { height: 168px; }
 	  100% { transform: rotate(360deg); }
 	}
 
-	#loader-wrapper .loader-section { position: fixed; top: 0; width: 51%; height: 100%; background: #111111; z-index: 2000; -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */ transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */}
+	#loader-wrapper .loader-section {
+		position: fixed;
+		top: 0;
+		width: 51%;
+		height: 100%;
+		background: #111111;
+		z-index: 2000;
+		-webkit-transform:translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
+		transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */}
 
 	#loader-wrapper .loader-section.section-left {
 		left: 0;
@@ -326,6 +332,12 @@ textarea { height: 168px; }
 	
 
 	/* Loaded */
+	.loaded #loader {
+        opacity: 0;
+		-webkit-transition: all 0.3s;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
+		transition: all 0.3s;  /* Firefox 16+, IE 10+, Opera */
+	}
+	
 	.loaded #loader-wrapper .loader-section.section-left {
 		-webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
 		transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */  
@@ -338,9 +350,8 @@ textarea { height: 168px; }
 		transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
 	
-	.loaded #loader {
+	.loaded #loader-wrapper {
 		visibility: hidden;
-        opacity: 0;
 		-webkit-transition: all 0.3s;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
 		transition: all 0.3s;  /* Firefox 16+, IE 10+, Opera */
 	}
