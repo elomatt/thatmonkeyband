@@ -86,13 +86,12 @@ button:focus { outline: none; }
 }
 
 .tm-site-name {
-	margin-bottom: 5px;
-	font-size: 4.5em;
+	font-size: 2em;
 	color: white;
 }
 
 .cd-hero-slider .tm-site-name { 
-	font-size: 3em;
+	font-size: 1.5em;
 	font-weight: 400;
 }
 
@@ -111,14 +110,15 @@ button:focus { outline: none; }
 .tm-textbox {
 	display: inline-block;
 	padding: 40px 45px;
+	max-width: 320px;
 }
 
 .cd-hero-slider h2, .cd-hero-slider p {
-	max-width: 500px;
+	max-width: 320px;
 	width: 100%;
 }
 .tm-textbox-1-col {
-	max-width: 800px;
+	max-width: 320px;
 }
 
 .cd-hero-slider .tm-text { 
@@ -127,12 +127,12 @@ button:focus { outline: none; }
 }
 
 .tm-2-col-container {		
-	max-width: 860px;
+	max-width: 320px;
 	margin: 0 auto;
 }
 
 .tm-2-col-textbox { 
-	max-width: 800px; 
+	max-width: 320px; 
 	-webkit-flex: 0 1 auto; 
 	    -ms-flex: 0 1 auto; 
 	        flex: 0 1 auto; /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
@@ -157,7 +157,7 @@ button:focus { outline: none; }
     width: 40px;
     height: 40px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
     margin-right: 10px;
 }
 
@@ -230,7 +230,7 @@ button:focus { outline: none; }
 
 .tm-contact-page {
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 320px;
 }
 
 .form-control,
