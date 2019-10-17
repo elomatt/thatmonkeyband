@@ -100,7 +100,7 @@ button:focus { outline: none; }
 	display: block;
 	margin: auto;
 	margin-bottom: 50px;
-	margin-top: -25px;
+	margin-top: 5px;
 }
 
 .calendar-iframe {
@@ -118,7 +118,7 @@ button:focus { outline: none; }
 .cd-hero-slider li { list-style: none; }
 
 .tm-bg-white-translucent {	
-	background-color: rgba(255,255,255,0.75);
+	background-color: rgba(255,255,255,0.9);
 	margin-bottom: 25px;
 }
 
