@@ -94,6 +94,20 @@ button:focus { outline: none; }
 	display: none;
 }
 
+.youtube-iframe {
+	width: 320px;
+	height: 180px;
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: -25px;
+}
+
+.calendar-iframe {
+	width: 240px;
+	height: 600px;
+}
+
 .cd-hero-slider .tm-site-name { 
 	font-size: 1.5em;
 	font-weight: 400;
@@ -106,7 +120,6 @@ button:focus { outline: none; }
 .tm-bg-white-translucent {	
 	background-color: rgba(255,255,255,0.75);
 	margin-bottom: 25px;
-	margin-top: 25px;
 }
 
 .tm-bg-white-translucent p { color: black; }
@@ -161,8 +174,9 @@ button:focus { outline: none; }
     width: 40px;
     height: 40px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-right: 10px;
+	margin-top: 15px;
 }
 
 .tm-social-link:last-child { margin-right: 0; }
@@ -233,8 +247,8 @@ button:focus { outline: none; }
 }
 
 .tm-contact-page {
-	margin: 0 auto;
-	max-width: 320px;
+	/* margin: 0 auto; */
+	/* max-width: 320px; */
 }
 
 .form-control,
@@ -405,13 +419,33 @@ textarea { height: 168px; }
 			-ms-flex-direction: row; 
 				flex-direction: row; 
 	}
-
+    .bandcamp-iframe {
+		display: block;
+		margin: auto;
+	}
+	
+	.youtube-iframe {
+		width: 640px;
+		height: 360px;
+	}
+	
 	.tm-copyright-text { margin-top: 0px; }
+	
+	.tm-textbox{ min-width: 640px; }
+	
+	.tm-text { min-width: 500px; }
 }
 
 @media only screen and (min-width: 465px) {
 	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 0px; }	
-	.bandcamp-iframe { display: inline;}
+	.youtube-iframe {
+		width: 426px;
+		height: 240px;
+	}
+	.calendar-iframe {
+		width: 400px;
+		height: 600px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -459,6 +493,11 @@ textarea { height: 168px; }
 	}
 
 	.tm-2-col-textbox:last-child { margin-right: 0;	}	
+	
+	.calendar-iframe {
+		width: 500px;
+		height: 600px;
+	}
 }
 
 @media only screen and (max-width: 991px) and (min-width: 769px) {
@@ -474,6 +513,10 @@ textarea { height: 168px; }
 
 @media only screen and (min-width: 992px) {
 	.cd-slider-nav .nav-item+.nav-item { margin-left: 1.5rem; }
+	.youtube-iframe {
+		width: 854px;
+		height: 480px;
+	}
 }
 
 @media only screen and (min-width: 1170px) {
@@ -482,4 +525,9 @@ textarea { height: 168px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 	.cd-hero-slider .tm-text { font-size: 1em; }
+	
+	.youtube-iframe {
+		width: 1024px;
+		height: 768px;
+	}
 }
