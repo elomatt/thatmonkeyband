@@ -90,6 +90,10 @@ button:focus { outline: none; }
 	color: white;
 }
 
+.bandcamp-iframe {
+	display: none;
+}
+
 .cd-hero-slider .tm-site-name { 
 	font-size: 1.5em;
 	font-weight: 400;
@@ -407,6 +411,7 @@ textarea { height: 168px; }
 
 @media only screen and (min-width: 465px) {
 	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 0px; }	
+	.bandcamp-iframe { display: inline;}
 }
 
 @media only screen and (min-width: 768px) {
