@@ -91,6 +91,9 @@ button:focus { outline: none; }
 }
 
 .bandcamp-iframe {
+	border: 0;
+	width: 400px;
+	height: 640px;
 	display: none;
 }
 
@@ -525,6 +528,11 @@ textarea { height: 168px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 	.cd-hero-slider .tm-text { font-size: 1em; }
+	
+	.bandcamp-iframe {
+		width: 500px;
+		height: 800px;
+	}
 	
 	.youtube-iframe {
 		width: 1024px;
