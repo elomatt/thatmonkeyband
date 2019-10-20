@@ -99,7 +99,7 @@ button:focus { outline: none; }
 	display: none;
 }
 
-.youtube-iframe {
+.youtube-iframe  {
 	width: 320px;
 	height: 180px;
 	display: block;
@@ -111,6 +111,21 @@ button:focus { outline: none; }
 .calendar-iframe {
 	width: 240px;
 	height: 600px;
+}
+
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	max-width: 1024px;
+}
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .cd-hero-slider .tm-site-name { 
@@ -438,6 +453,7 @@ textarea { height: 168px; }
 	.youtube-iframe {
 		width: 640px;
 		height: 360px;
+		margin-top: 0px;
 	}
 	
 	.tm-copyright-text { margin-top: 0px; }
@@ -534,7 +550,6 @@ textarea { height: 168px; }
 	.youtube-iframe {
 		width: 854px;
 		height: 480px;
-		margin-top: 0px;
 	}
 }
 
@@ -553,5 +568,10 @@ textarea { height: 168px; }
 	.youtube-iframe {
 		width: 1024px;
 		height: 768px;
+	}
+	
+	.facebook-responsive {
+		margin-top: -50px;
+		margin-bottom: -150px;
 	}
 }
