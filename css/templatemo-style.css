@@ -431,6 +431,10 @@ textarea { height: 168px; }
 		margin: auto;
 	}
 	
+	.tno-cover {
+	    display: none;
+	}
+	
 	.youtube-iframe {
 		width: 640px;
 		height: 360px;
