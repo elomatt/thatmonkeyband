@@ -98,33 +98,94 @@ button:focus { outline: none; }
 	display: none;
 }
 
-.youtube-iframe  {
-	width: 320px;
-	height: 180px;
-	display: block;
+.vid-container {
+	position: relative;
+	padding-bottom: 52%;
+	padding-top: 30px; 
+    height: 0;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 80%;
+	height: 100%;
+}
+
+.vid-list-container {
+	width: 92%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left:4%;
+	padding-bottom: 20px;
+}
+
+.vid-list {
+	width: 1344px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+
+.vid-item {
+	display: inline-block;
+	width: 148px;
+	height: 148px;
+	float: left;
 	margin: auto;
-	margin-bottom: 50px;
-	margin-top: -25px;
+	padding: 10px;
+}
+
+.thumb {
+	overflow:hidden;
+	height: 84px;
+}
+
+.thumb img {
+	width: 100%;
+	position: relative;
+	top: -13px;
+}
+
+.vid-item .desc {
+	color: #21A1D2;
+	font-size: 15px;
+	margin-top:5px;
+}
+
+.arrows {
+	position:relative;
+	width: 100%;
+}
+
+.arrow-left {
+	color: #fff;
+	position: absolute;
+	background: #777;
+	padding: 15px;
+	left: -25px;
+	top: -130px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.arrow-right {
+	color: #fff;
+	position: absolute;
+	background: #777;
+	padding: 15px;
+	right: -25px;
+	top: -130px;
+	z-index:100;
+	cursor: pointer;
 }
 
 .calendar-iframe {
 	width: 240px;
 	height: 600px;
-}
-
-.facebook-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-	max-width: 1024px;
-}
-.facebook-responsive iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
 }
 
 .cd-hero-slider .tm-site-name { 
@@ -434,6 +495,24 @@ textarea { height: 168px; }
 }
 
 /* Media Queries */
+
+@media (max-width: 624px) {
+	.arrows {
+		position:relative;
+		margin: 0 auto;
+		width:96px;
+	}
+	.arrow-left {
+		left: 0;
+		top: -20px;
+	}
+
+	.arrow-right {
+		right: 0;
+		top: -20px;
+	}
+}
+
 @media only screen and (min-width: 720px) {
 	
 	.tm-footer { 
@@ -450,12 +529,6 @@ textarea { height: 168px; }
 	    display: none;
 	}
 	
-	.youtube-iframe {
-		width: 640px;
-		height: 360px;
-		margin-top: 0px;
-	}
-	
 	.tm-copyright-text { margin-top: 0px; }
 	
 	.tm-textbox{
@@ -468,10 +541,7 @@ textarea { height: 168px; }
 
 @media only screen and (min-width: 465px) {
 	.cd-hero-slider .js-tm-page-content.tm-page-1 { margin-top: 0px; }	
-	.youtube-iframe {
-		width: 426px;
-		height: 240px;
-	}
+	
 	.calendar-iframe {
 		width: 400px;
 		height: 600px;
@@ -550,10 +620,6 @@ textarea { height: 168px; }
 	.cd-slider-nav {
 	    margin-bottom: 25px;
 	}
-	.youtube-iframe {
-		width: 854px;
-		height: 480px;
-	}
 	.tm-site-name {
 		font-size: 4em;
 	}
@@ -572,11 +638,6 @@ textarea { height: 168px; }
 	.bandcamp-iframe {
 		width: 500px;
 		height: 800px;
-	}
-	
-	.youtube-iframe {
-		width: 1024px;
-		height: 768px;
 	}
 	
 	.facebook-responsive {

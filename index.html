@@ -131,9 +131,48 @@ occasional squeeze of melodeon, Monkey See Monkey Do take traditional and modern
                     
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="3" align="center">
-							<iframe class="youtube-iframe" src="https://www.youtube.com/embed/7NdWU0kZH1A?rel=0&loop=1&playlist=7NdWU0kZH1A" frameborder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"> </iframe>
-                        </div>
+							<div>
+								<div class="vid-container">
+									<iframe id="vid_frame" src="https://www.youtube.com/embed/7NdWU0kZH1A?rel=0&loop=1&playlist=KxlMqMV06Y4,88qjTQrNEk8" width="560" height="315" frameborder="0"></iframe>
+								</div>
+								<div class="vid-list-container">
+									<div class="vid-list">
+										<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/7NdWU0kZH1A?autoplay=1&rel=0&loop=1&playlist=KxlMqMV06Y4,88qjTQrNEk8'">
+											<div class="thumb">
+												<img src="http://img.youtube.com/vi/7NdWU0kZH1A/2.jpg">
+											</div>
+											<div class="desc">
+												Pound A Week Rise
+											</div>
+										</div>
+										<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/KxlMqMV06Y4?autoplay=1&rel=0&loop=1&playlist=88qjTQrNEk8,7NdWU0kZH1A'">
+											<div class="thumb">
+												<img src="http://img.youtube.com/vi/KxlMqMV06Y4/0.jpg">
+											</div>
+											<div class="desc">
+												Superfly
+											</div>
+										</div>
+										<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/88qjTQrNEk8?autoplay=1&rel=0&loop=1&playlist=7NdWU0kZH1A,7NdWU0kZH1A'">
+											<div class="thumb">
+												<img src="http://img.youtube.com/vi/88qjTQrNEk8/0.jpg">
+											</div>
+											<div class="desc">
+												Farewell to Erin
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="arrows">
+									<div class="arrow-left">
+										<i class="fa fa-chevron-left fa-lg"></i>
+									</div>
+									<div class="arrow-right">
+										<i class="fa fa-chevron-right fa-lg"></i>
+									</div>
+								</div>
+							</div>
+						</div>
                     </div>                    
                 </li>
 
@@ -353,6 +392,25 @@ occasional squeeze of melodeon, Monkey See Monkey Do take traditional and modern
                 x.parentNode.insertBefore(s, x);
               })();
         </script>
+		
+		
+		<!-- JS FOR SCROLLING THE ROW OF THUMBNAILS -->
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(".arrow-right").bind("click", function (event) {
+					event.preventDefault();
+					$(".vid-list-container").stop().animate({
+						scrollLeft: "+=336"
+					}, 750);
+				});
+				$(".arrow-left").bind("click", function (event) {
+					event.preventDefault();
+					$(".vid-list-container").stop().animate({
+						scrollLeft: "-=336"
+					}, 750);
+				});
+			});
+		</script>
 
-</body>
+	</body>
 </html>
