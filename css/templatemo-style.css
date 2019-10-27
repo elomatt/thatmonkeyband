@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-491-flat
 body {
 	background-color: #DDDDDD; /*#282F39*/
 	color: black;
-	font-family: 'Cinzel', Helvetica, Arial, sans-serif;
+	font-family: 'Cinzel', Times, serif;
 	font-size: 17px;
 	font-weight: 300;	
 }
@@ -88,7 +88,7 @@ button:focus { outline: none; }
 .tm-site-name {
 	font-size: 2em;
 	color: white;
-	text-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
 .bandcamp-iframe {
@@ -104,7 +104,7 @@ button:focus { outline: none; }
 	display: block;
 	margin: auto;
 	margin-bottom: 50px;
-	margin-top: -50px;
+	margin-top: -25px;
 }
 
 .calendar-iframe {
@@ -139,7 +139,7 @@ button:focus { outline: none; }
 .tm-bg-white-translucent {	
 	background-color: rgba(255,255,255,0.9);
 	margin-bottom: 25px;
-	margin-top: -50px;
+	margin-top: -33px;
 }
 
 .tm-bg-white-translucent p { color: black; }
@@ -161,7 +161,8 @@ button:focus { outline: none; }
 
 .cd-hero-slider .tm-text { 
 	font-size: 1em;
-	line-height: 1.8; 
+	line-height: 1.8;
+    font-family: 'Arimo', Helvetica, sans-serif;
 }
 
 .tm-2-col-container {		
@@ -178,7 +179,7 @@ button:focus { outline: none; }
 
 .cd-hero-slider h2.tm-text-title {
 	color: #000002;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
@@ -251,7 +252,7 @@ button:focus { outline: none; }
 
 /* Gallery */
 .tm-img-gallery {
-	margin: 25px auto 0;
+	margin: -35px auto 0;
 }
 
 .tm-img {
@@ -546,10 +547,19 @@ textarea { height: 168px; }
 
 @media only screen and (min-width: 992px) {
 	.cd-slider-nav .nav-item+.nav-item { margin-left: 1.5rem; }
+	.cd-slider-nav {
+	    margin-bottom: 25px;
+	}
 	.youtube-iframe {
 		width: 854px;
 		height: 480px;
 	}
+	.tm-site-name {
+		font-size: 4em;
+	}
+	.tm-img-gallery {
+	    margin: 0 auto 0;
+    }
 }
 
 @media only screen and (min-width: 1170px) {
