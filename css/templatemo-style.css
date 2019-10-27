@@ -131,11 +131,11 @@ button:focus { outline: none; }
 }
 
 .vid-item {
-	display: inline-block;
+	display: block;
 	width: 148px;
 	height: 148px;
 	float: left;
-	margin: auto;
+	margin: 0;
 	padding: 10px;
 }
 
