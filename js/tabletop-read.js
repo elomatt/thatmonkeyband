@@ -10,8 +10,9 @@ function init() {
 
 function showInfo(data, tabletop) {
   data.forEach(function(data) {
+    home_p_1.innerHTML = data.home_p_1;
     home_p_2.innerHTML = data.home_p_2;
-	band_blurb.innerHTML = data.band_blurb
+    band_blurb.innerHTML = data.band_blurb;
  });
 }
 
