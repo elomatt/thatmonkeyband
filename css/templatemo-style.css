@@ -536,7 +536,7 @@ textarea { height: 168px; }
 		margin-bottom: 5px;
 	}
 	
-	.tm-text { min-width: 600px; }
+	.tm-text { min-width: 500px; }
 }
 
 @media only screen and (min-width: 465px) {
