@@ -17,7 +17,7 @@
 			body,h1,h2,button,.w3-bar {font-family: "Cinzel", sans-serif}
 			h3,h4,h5,h6,.w3-xlarge,.w3-text-white {font-family: "Arimo", sans-serif}
 			.fa-facebook,.fa-spotify,.fa-soundcloud,.fa-bandcamp, .fa-youtube {font-size:64px}
-			body {background-image: url("img/bg-01.png")};
+			body {background-color: black};
 		</style>
 	</head>
 
@@ -28,39 +28,53 @@
 				<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 				<a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
 				<a href="the_band.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-blue">The Band</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Videos</a>
-				<a href="photos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-green">Photos</a>
+				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Media</a>
 				<a href="information.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Information</a>
 			</div>
 			<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
 				<a href="the_band.html" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">The Band</a>
-				<a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">Videos</a>
-				<a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hover-green">Photos</a>
+				<a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">Media</a>
 				<a href="information.html" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">Information</a>
 			</div>
 		</div>
-
-		<header class="w3-container w3-white w3-center" style="padding:64px 16px 16px">
-			<h1 class="w3-margin w3-jumbo">Videos</h1>
-		</header>
-        
+		
+		
         <div class="w3-row-padding w3-padding-64 w3-container">
-            <div class="w3-content w3-center">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLJRoeY9bafX9OYeD8PRrvzEIG3NSYaL64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-					</iframe>
-                </div>
-            </div>
+			<div class="w3-content w3-center">
+				<div class="w3-content w3-center">
+					<h1 class="w3-text-white"> Videos </h1>
+					<div class="video-container">
+						<iframe src="https://www.youtube.com/embed/videoseries?list=PLJRoeY9bafX9OYeD8PRrvzEIG3NSYaL64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+						</iframe>
+					</div>
+				<h1 class="w3-text-white"> Photos </h1>
+				<h3 class="w3-text-white">(click for full size)</h3>
+				<div class="row ">
+					<div class="column" style="height:100%">
+							<a href="img/2023-trio_graffiti_instruments_samface.jpg"target="_blank"><img src="img/2023-trio_graffiti_instruments_samface.jpg" style="width:100%"></a>
+							<a href="img/2023-trio_graffiti_looking_up.jpg"target="_blank"><img src="img/2023-trio_graffiti_looking_up.jpg" style="width:100%"></a>
+					</div>
+					<div class="column" style="height:100%">
+							<a href="img/2023-trio_common_trees.jpg"target="_blank"><img src="img/2023-trio_common_trees.jpg" style="width:100%"></a>
+					</div>	
+					<div class="column" style="height:100%">
+							<a href="img/2023-pub_instruments.jpg"target="_blank"><img src="img/2023-pub_instruments.jpg" style="width:100%"> </a>
+					</div>
+					<div class="column" style="height:100%">
+							<a href="img/2023-trio_poster_white.jpg"target="_blank"><img src="img/2023-trio_poster_white.jpg" style="width:100%"></a>
+					</div>			
+				</div>
+			</div>
         </div>
         
         <footer>
-			<div class="w3-center w3-text-white">
+			<div class="w3-center w3-padding-64 w3-text-white">
 			<a href="https://open.spotify.com/artist/3sho57fnQ1KjFZ5PExms24" target="_blank"><i class="fa fa-spotify"></i></a>&nbsp;&nbsp;
 			<a href="https://facebook.com/thatmonkeyband" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
 			<a href="https://www.youtube.com/channel/UCFJ0jVXY0wbXN7-R9QIUhgw" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
 			<a href="https://monkeyseemonkeydo.bandcamp.com" target="_blank"><i class="fa fa-bandcamp"></i></a>&nbsp;&nbsp;
 
-				<p class="tm-copyright-text">Copyright &copy; 2019, 2021 Monkey See Monkey Do
+				<p class="tm-copyright-text">Copyright &copy; 2019-2023, Monkey See Monkey Do
 				</br>
 				<button style="background: white; width: 165px; height: 30px; border-radius: 3px; border: 1px solid #5f7d9c; font-family: Roboto, Arial; font-size: 10px; color: #5f7d9c; font-weight: 600; box-sizing: border-box; cursor: pointer; padding: 0; outline: none;" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
 				</br>
@@ -72,7 +86,7 @@
 				</br>
 				Matthew Aldous, <a href="http://www.colourcogmachine.com/">Kate Springfield</a>,
 				</br>
-				<a href="https://www.facebook.com/mikeespictures/">Mikee's Pictures</a> and Ben Potton</p>
+				<a href="https://www.facebook.com/mikeespictures/">Mikee's Pictures</a>, Emily Taylor and Ben Potton</p>
 			</div>
 		</footer>
 	
