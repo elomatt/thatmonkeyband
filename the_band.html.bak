@@ -29,13 +29,11 @@
 				<a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
 				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-blue">The Band</a>
 				<a href="media.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Media</a>
-				<a href="photos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-green">Photos</a>
 				<a href="information.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Information</a>
 			</div>
 			<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
 				<a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">The Band</a>
 				<a href="media.html" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">Media</a>
-				<a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hover-green">Photos</a>
 				<a href="information.html" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">Information</a>
 			</div>
 		</div>

@@ -27,13 +27,15 @@
             <div class="w3-bar w3-black w3-card w3-left-align w3-large">
                 <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
                 <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-                <a href="the_band.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-blue">The Band</a>
-                <a href="media.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Media</a>
+                <a href="concerts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-blue">Concerts</a>
+				<a href="ceilidhs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Ceilidhs</a>				
+                <a href="media.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-green">Media</a>
                 <a href="information.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Information</a>
             </div>
             <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-                <a href="the_band.html" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">The Band</a>
-                <a href="media.html" class="w3-bar-item w3-button w3-padding-large w3-hover-purple">Media</a>
+                <a href="concerts.html" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">Concerts</a>
+				<a href="ceilidhs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-purple">Ceilidhs</a>
+                <a href="media.html" class="w3-bar-item w3-button w3-padding-large w3-hover-green">Media</a>
                 <a href="information.html" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">Information</a>
             </div>
         </div>
@@ -43,27 +45,36 @@
 			<h1 style="position:absolute; color:white; font-size:7vw; text-shadow:3px 3px #000000; top:50%; margin-bottom:50%; left:5%;">Monkey See Monkey Do</h1>
 		</div>
 		
-        <div class="w3-row-padding w3-padding-64 w3-container">
+		<div class="w3-row-padding w3-padding-32 w3-container">
             <div class="w3-content">
-            <div class="w3-twothird">
-                <h1 style="color:white; font-size:36px">The Night Out</h1>
-                <h4 class="w3-text-white" style="font-size:16px;">the critically-acclaimed album available on <a href="https://monkeyseemonkeydo.bandcamp.com"> Bandcamp</a> and <a href="https://open.spotify.com/artist/3sho57fnQ1KjFZ5PExms24">Spotify</a></h4>
-                <p class="w3-padding-32 w3-text-white" style="font-size: 16px;">
-                    "A cracking album" - <i>Mike&nbsp;Harding</i>
-                    </br>
-                    </br>"Thoroughly enjoyable" - <i>Songlines</i>
-                    </br>
-                    </br>"A genuine delight" - <i>Fatea&nbsp;Records</i>
-                    </br>
-                    </br>“Engaging, entertaining and musically accomplished!” – <i>Folklights</i>
-                    </br>
-                    </br> “Just a fantastic young folk band with a great mix of tunes and superb stage presence!” – <i>Romsey&nbsp;Beggar’s&nbsp;Fair</i>
-                </p>
+					<p class="w3-text-white" style="font-size: large;">
+						Monkey See Monkey Do met in Southampton's bustling folk scene, where Sam grew up and Helen and Matt didn't.
+						</br>
+						</br>
+						After many well-spent evenings at folk music sessions in Hampshire pubs, the band came together in the summer of 2015. Combining vocals with fiddle, guitar, bodhran, clarinet and the occasional squeeze of melodeon, Monkey See Monkey Do take traditional and modern material and make it their own, coining the term ‘folk-ish’ to describe their upbeat sound, which draws on a wealth of folk traditions and influences.
+					</p>
             </div>
-        
-            <div class="w3-third w3-center">
-                <iframe style="border: 0; width: 300px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=3292281819/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monkeyseemonkeydo.bandcamp.com/album/the-night-out">The Night Out by Monkey See Monkey Do</a></iframe>
-            </div>
+		</div>
+		
+        <div class="w3-row-padding w3-container">
+            <div class="w3-content">
+			    <div class="w3-third w3-center">
+					<iframe style="border: 0; width: 300px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=3292281819/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monkeyseemonkeydo.bandcamp.com/album/the-night-out">The Night Out by Monkey See Monkey Do</a></iframe>
+				</div>
+				<div class="w3-twothird">
+					<h1 style="color:white; font-size:36px">The Night Out</h1>
+					<h4 class="w3-text-white" style="font-size:16px;">the critically-acclaimed album available on <a href="https://monkeyseemonkeydo.bandcamp.com"> Bandcamp</a> and <a href="https://open.spotify.com/artist/3sho57fnQ1KjFZ5PExms24">Spotify</a></h4>
+					<p class="w3-padding-32 w3-text-white" style="font-size: 16px;">
+						"A cracking album" - <i>Mike&nbsp;Harding</i>
+						</br>
+						</br>"Thoroughly enjoyable" - <i>Songlines</i>
+						</br>
+						</br>"A genuine delight" - <i>Fatea&nbsp;Records</i>
+						</br>
+						</br>“Engaging, entertaining and musically accomplished!” – <i>Folklights</i>
+						</br>
+					</p>
+				</div>
             </div>
         </div>
 
@@ -72,9 +83,9 @@
 		<a href="https://open.spotify.com/artist/3sho57fnQ1KjFZ5PExms24" target="_blank"><i class="fa fa-spotify"></i></a>&nbsp;&nbsp;
                 <a href="https://facebook.com/thatmonkeyband" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
                 <a href="https://www.youtube.com/channel/UCFJ0jVXY0wbXN7-R9QIUhgw" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
-                <a href="https://monkeyseemonkeydo.bandcamp.com" target="_blank"><i class="fa fa-bandcamp"></i></a>&nbsp;&nbsp;</br>
-				<!--Encore Button Generated 22nd October 2023 at 1:31pm; Copyright Encore 2023--><a href='https://encoremusicians.com/hire/ceilidh-bands?utm_source=badge&utm_medium=web&utm_campaign=verified_badge&utm_content=light-medium' target="_parent"><img src='https://encoremusicians.com/img/embeds/badge-light.svg' alt='Book Monkey See Monkey Do on Encore Musicians' style='width: 100px; height: 100px;'/></a></a></br>
-                <p class="tm-copyright-text">Copyright &copy; 2019-2023 Monkey See Monkey Do
+                <a href="https://monkeyseemonkeydo.bandcamp.com" target="_blank"><i class="fa fa-bandcamp"></i></a>&nbsp;&nbsp;
+                <p class="tm-copyright-text">Copyright &copy; 2019-2023 Monkey See Monkey Do</br>
+				<!--Encore Button Generated 22nd October 2023 at 1:31pm; Copyright Encore 2023--><a href='https://encoremusicians.com/hire/ceilidh-bands?utm_source=badge&utm_medium=web&utm_campaign=verified_badge&utm_content=light-medium' target="_parent"><img src='https://encoremusicians.com/img/embeds/badge-light.svg' alt='Book Monkey See Monkey Do on Encore Musicians' style='width: 80px; height: 80px; padding-bottom: 8px;'/></a></a>
                 </br>
                 <button style="background: white; width: 165px; height: 30px; border-radius: 3px; border: 1px solid #5f7d9c; font-family: Roboto, Arial; font-size: 10px; color: #5f7d9c; font-weight: 600; box-sizing: border-box; cursor: pointer; padding: 0; outline: none;" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
                 </br>
